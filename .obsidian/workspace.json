@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "deb656229d58c88c",
+    "type": "split",
+    "children": [
+      {
+        "id": "00aa21400735df59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7a0b3bfa226f96d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/26-03-11 실습5-2 Check Agent A2A Client.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "26-03-11 실습5-2 Check Agent A2A Client"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a10108e530c2a2ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "5025f2a124ade320",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66240d684bee4e01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "5e06891fe789cc1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "9b367e371049b9ac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424.5
+  },
+  "right": {
+    "id": "6ac696a0f9a3cab4",
+    "type": "split",
+    "children": [
+      {
+        "id": "495c68a39eee44aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a159b8ea0b4ec2b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/26-03-11 실습5-2 Check Agent A2A Client.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "26-03-11 실습5-2 Check Agent A2A Client 의 백링크"
+            }
+          },
+          {
+            "id": "64e6e479e23358d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/26-03-11 실습5-2 Check Agent A2A Client.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "26-03-11 실습5-2 Check Agent A2A Client 의 나가는 링크"
+            }
+          },
+          {
+            "id": "29f7d60efcea0c5b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "5e34f4c6ea080327",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "807785f783c6e068",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/26-03-11 실습5-2 Check Agent A2A Client.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "26-03-11 실습5-2 Check Agent A2A Client 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "66240d684bee4e01",
+  "lastOpenFiles": [
+    "Notes/26-03-08 AI 시대의 경제 패러다임 변화와 생존 전략.md",
+    "Notes/26-03-08 AI 시대의 경제 패러다임 변화와 생존 전략 - briefing-doc.md",
+    "환영합니다!.md",
+    "Notes/26-03-11 실습5-2 Check Agent A2A Client.md",
+    "Notes/26-03-11 ai-agent-framework-mastering.md",
+    "Notes/install.sh",
+    "Notes/26-03-11 실습6-1 End-to-End 데모.md",
+    "Notes/26-03-11 실습5-1 Notify Agent A2A Server.md",
+    "Notes/26-03-11 실습4-3 Skill MCP 통합.md",
+    "Notes/26-03-11 실습4-2 간이 MCP 서버.md",
+    "Notes/26-03-11 실습4-1 Email Skill 모듈.md",
+    "Notes/26-03-11 실습3-2 반복 폴링 Agent.md",
+    "Notes/26-03-11 실습3-1 기본 DeepAgent.md",
+    "Notes/26-03-11 실습2-4 체크포인팅 Long-Running Agent.md",
+    "Notes/26-03-11 실습2-3 에러 핸들링과 재시도.md",
+    "Notes/26-03-11 실습2-2 LangGraph 상태 머신.md",
+    "Notes/26-03-11 실습2-1 순수 Agent Loop.md",
+    "Notes/26-03-11 MS TO DO 동기화 자동화 스케줄.png",
+    "Notes/26-03-11 MS TO DO 동기화 자동화 스케줄.excalidraw",
+    "Notes/26-03-11 MiroFish - 멀티에이전트 AI 예측 엔진.md",
+    "Notes/26-03-11 LangGraph Agent 상태 머신.png",
+    "Notes/26-03-11 LangGraph Agent 상태 머신.excalidraw",
+    "Notes/26-03-11 DeepAgents 패턴 요약.md",
+    "Notes/26-03-11 Claude Code Review 기능 요약.md",
+    "Notes/26-03-11 Claude Code Review GitHub Actions 연동.png",
+    "Notes/26-03-11 Claude Code Review GitHub Actions 연동.excalidraw",
+    "Notes/26-03-11 AI Agent 소프트웨어 개발 도입 종합 보고서.md",
+    "Notes/26-03-11 AI Agent 보고서 - 효과측정 프레임워크.md",
+    "Notes/26-03-11 AI Agent 보고서 - 시장 리서치.md",
+    "Notes/26-03-11 AI Agent 보고서 - 선진사 분석.md",
+    "Notes/26-03-11 AI Agent 보고서 - 도입 로드맵.md",
+    "Notes/26-03-11 AI Agent Team 테스트 플로우.png",
+    "Notes/26-03-11 AI Agent Team 테스트 플로우.excalidraw",
+    "Notes/26-03-10 Claude Code Extension 완전 가이드.md",
+    "Notes/26-03-09 이승룡 다면 진단.md",
+    "Notes"
+  ]
+}
