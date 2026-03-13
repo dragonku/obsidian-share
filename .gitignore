@@ -1,9 +1,0 @@
-# Ignore everything
-*
-
-# Except Notes folder
-!Notes/
-!Notes/**
-
-# Except .gitignore itself
-!.gitignore
