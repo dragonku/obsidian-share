@@ -28,6 +28,41 @@ source: https://github.com/AlexsJones/llmfit
 
 ---
 
+## 내 PC 실측 결과 (2026-03-14)
+
+### 하드웨어 스펙
+| 항목 | 정보 |
+|------|------|
+| CPU | Intel i7-13700H (20코어) |
+| RAM | 15.4 GB (가용 10 GB) |
+| GPU | NVIDIA RTX 4050 Laptop (VRAM 6 GB, CUDA) |
+
+### Perfect 적합 모델 Top 10
+
+| 모델 | 점수 | tok/s | Quant | VRAM% | Context |
+|------|------|-------|-------|-------|---------|
+| Qwen/Qwen2.5-3B-Instruct | 85 | 62.7 | Q8_0 | 75.9% | 32k |
+| Qwen/Qwen2.5-Coder-3B-Instruct | 84 | 62.7 | Q8_0 | 75.9% | 32k |
+| llm-jp/llm-jp-3-3.7b-instruct | 84 | 51.2 | Q8_0 | 76.6% | 4k |
+| Qwen/Qwen2.5-3B-Instruct-AWQ | 84 | 85.5 | AWQ-4bit | 51.5% | 32k |
+| bigcode/starcoder2-3b | 84 | 63.9 | Q8_0 | 68.0% | 16k |
+| **cyankiwi/Qwen3-30B-A3B-AWQ** (MoE) | 83 | **500.3** | AWQ-4bit | 45.0% | 262k |
+| Qwen/Qwen2.5-3B | 83 | 62.7 | Q8_0 | 75.9% | 32k |
+| meta-llama/Llama-3.2-3B | 83 | 60.3 | Q8_0 | 66.3% | 4k |
+| Qwen/Qwen2.5-Coder-3B-Instruct-AWQ | 82 | 85.5 | AWQ-4bit | 51.5% | 32k |
+
+> **Qwen3-30B-A3B-AWQ**: 30B MoE 모델 — VRAM 45%로 500 tok/s. Ollama `qwen3:30b-a3b`로 설치 중 (19 GB)
+
+### 설치된 Ollama 모델 (기존)
+- `qwen2.5:7b`
+- `qwen2.5-chat:latest`
+- `qwen2.5-coder:7b-instruct-q5_K_M`
+- `mistral:7b-instruct-v0.3-q4_K_M`
+- `llama3.1:8b` / `llama3.2:latest`
+- `glm-4.7-flash:q4_K_M`
+
+---
+
 ## 핵심 기능
 
 ### 하드웨어 자동 감지
@@ -56,8 +91,8 @@ source: https://github.com/AlexsJones/llmfit
 # macOS / Linux (Homebrew)
 brew install llmfit
 
-# 빠른 설치
-curl -fsSL https://llmfit.axjns.dev/install.sh | sh
+# 빠른 설치 (sudo 없이)
+curl -fsSL https://llmfit.axjns.dev/install.sh | sh -s -- --local
 
 # Windows (Scoop)
 scoop install llmfit
@@ -68,6 +103,8 @@ docker run ghcr.io/alexsjones/llmfit
 # 소스 빌드
 cargo build --release
 ```
+
+> 현재 환경: `~/.local/bin/llmfit` v0.7.2 설치됨
 
 ---
 
